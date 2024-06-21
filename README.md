@@ -20,3 +20,4 @@
 | 15 | -0.004 |  0     | -0.013 | 1.6e-05 | 0       | 0.000169 |
 RMSE_H | = 0.015
 RMSE_V | = 0.008
+เอกสารของงานนี้สามารถอ่านได้ที่ https://drive.google.com/drive/folders/1Hoaf3nOfz5C9ZhN8JOsAAW4oFjMrolQv?usp=drive_link
