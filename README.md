@@ -1,5 +1,5 @@
-##  MMS_Master_study
-# diff_check.py
+#  MMS_Master_study
+## diff_check.py
 โปรแกรม diff_check.py สำหรับตรวจสอบค่าพิกัด GNSS ที่วัดได้จากในสนาม
 input เป็น GCPs.csv 
 เมื่อเราคำนวณมาแล้วจะได้ผลลัพธ์ตามตารางนี้
@@ -25,6 +25,7 @@ input เป็น GCPs.csv
 |RMSE_H  = 0.015 |
 |RMSE_V  = 0.008 |
 
+## MMS_RMSE_validation.py
 โปรแกรม MMS_RMSE_validation.py สำหรับตรวจสอบค่าพิกัดที่ได้จาก Point Cloud เทียบกับ RTK ที่วัดในสนาม
 input เป็น GCP_Measure_edit5_speed_30_60.csv
 จงกำหนดวิธีการใช้งาน อย่างเช่น เลือกความเร็วที่สนใจ
@@ -53,6 +54,7 @@ input เป็น GCP_Measure_edit5_speed_30_60.csv
 |RMSE_V  = 0.018|
 |RMSE_3d = 0.061|
 
+## point_density.py
 โปรแกรม point_density.py สำหรับตรวจสอบค่าพิกัด GNSS ที่วัดได้จากในสนาม
 input เป็น  GCP_Measure_edit5_speed_30_60.csv กับไฟล์ .las ที่ได้จาก MMS
 กำหนดความเร็วที่สนใจและโฟลเดอร์ที่เก็บไฟล์ .las 
@@ -78,4 +80,5 @@ input เป็น  GCP_Measure_edit5_speed_30_60.csv กับไฟล์ .las
 
 |point_density = 470 pnt/sqm.|
 
-MMS_validation_form_AU20 ไฟล์ pdf ทีจะอธิบายทั้งตำแหน่งที่ได้จาก RTK และ MMS รวมไปถึงภาพทีใช้วัดจุด GCP เหล่านั้น สามารถดูได้จากไฟล์นี้ได้เลยครับ
+## MMS_validation_form_AU20.pdf
+MMS_validation_form_AU20.pdf ทีจะอธิบายทั้งตำแหน่งที่ได้จาก RTK และ MMS รวมไปถึงภาพทีใช้วัดจุด GCP เหล่านั้น สามารถดูได้จากไฟล์นี้ได้เลยครับ
