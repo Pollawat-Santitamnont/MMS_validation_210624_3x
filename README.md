@@ -1,5 +1,5 @@
 ##  MMS_Master_study
-#diff_check.py
+# diff_check.py
 โปรแกรม diff_check.py สำหรับตรวจสอบค่าพิกัด GNSS ที่วัดได้จากในสนาม
 input เป็น GCPs.csv 
 เมื่อเราคำนวณมาแล้วจะได้ผลลัพธ์ตามตารางนี้
