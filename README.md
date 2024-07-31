@@ -127,3 +127,20 @@ input เป็น  GCP_Measure_edit5_speed_30_60.csv กับไฟล์ .las
 
 ## MMS_validation_form_AU20.pdf
 MMS_validation_form_AU20.pdf ทีจะอธิบายทั้งตำแหน่งที่ได้จาก RTK และ MMS รวมไปถึงภาพทีใช้วัดจุด GCP เหล่านั้น สามารถดูได้จากไฟล์นี้ได้เลยครับ
+
+## cors4_GNSS1.py
+โปรแกรม cors4_GNSS1.py สำหรับตรวจสอบค่าพิกัด GNSS ที่วัดได้จากการ post process ซึ่งในกรณีได้ใช้ SBKKGNSS01_precise เป็น reference เพื่อเทียบกับอันอื่น โดยลำดับที่เรียงตามความใกล้ไกลและเป็นแบบที่ใช้คำนวณด้วย orbit แบบไหนด้วย
+input เป็น  cors4_GNSS1.toml
+กำหนด reference และ ไฟล์ที่จะนำเข้า
+เมื่อเราคำนวณมาแล้วจะได้ผลลัพธ์ตามตารางนี้
+
+| Name                 |     dE |     dN |     dU |
+|:---------------------|-------:|-------:|-------:|
+| SBKKGNSS01_precise   |  0.000 |  0.000 |  0.000 |
+| SBKKGNSS01_broadcast |  0.000 | -0.000 | -0.000 |
+| PKKTGNSS01_broadcast | -0.000 | -0.006 | -0.003 |
+| BPLEGNSS01_broadcast | -0.010 |  0.005 | -0.002 |
+| OKRKGNSS01_broadcast | -0.001 | -0.016 |  0.050 |
+| PKKTGNSS01_precise   | -0.000 | -0.007 | -0.003 |
+| BPLEGNSS01_precise   | -0.009 |  0.006 | -0.002 |
+| OKRKGNSS01_precise   | -0.002 | -0.017 |  0.047 
