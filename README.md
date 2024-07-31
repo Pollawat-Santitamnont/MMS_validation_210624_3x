@@ -143,4 +143,6 @@ input เป็น  cors4_GNSS1.toml
 | OKRKGNSS01_broadcast | -0.001 | -0.016 |  0.050 |
 | PKKTGNSS01_precise   | -0.000 | -0.007 | -0.003 |
 | BPLEGNSS01_precise   | -0.009 |  0.006 | -0.002 |
-| OKRKGNSS01_precise   | -0.002 | -0.017 |  0.047 
+| OKRKGNSS01_precise   | -0.002 | -0.017 |  0.047 |
+
+นอกจากนี้สามารถ plot graph ได้อีกด้วย
