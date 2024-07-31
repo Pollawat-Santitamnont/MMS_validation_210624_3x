@@ -1,0 +1,95 @@
+[SBKKGNSS01_broadcast]
+x = -1147013.7699
+y = 6087743.5448
+z = 1512806.2777
+lat.dd = 13
+lat.mm = 48
+lat.ss = 43.92487
+lon.dd = 100
+lon.mm = 40
+lon.ss = 12.77542
+h   = -28.4360
+
+[PKKTGNSS01_broadcast]
+x = -1147013.7694
+y = 6087743.5432
+z = 1512806.2709
+lat.dd = 13
+lat.mm = 48
+lat.ss = 43.92467
+lon.dd = 100
+lon.mm = 40
+lon.ss = 12.77541
+h   = -28.4392
+
+[BPLEGNSS01_broadcast]
+x = -1147013.7597
+y = 6087743.5430
+z = 1512806.2826
+lat.dd = 13
+lat.mm = 48
+lat.ss = 43.92506
+lon.dd = 100
+lon.mm = 40
+lon.ss = 12.77510
+h   = -28.4383
+
+[OKRKGNSS01_broadcast]
+x = -1147013.7780
+y = 6087743.5965
+z = 1512806.2741
+lat.dd = 13
+lat.mm = 48
+lat.ss = 43.92435
+lon.dd = 100
+lon.mm = 40
+lon.ss = 12.77537
+h   = -28.3860
+
+[SBKKGNSS01_precise]
+x = -1147013.7698
+y = 6087743.5448
+z = 1512806.2778
+lat.dd = 13
+lat.mm = 48
+lat.ss = 43.92488
+lon.dd = 100
+lon.mm = 40
+lon.ss = 12.77542
+h   = -28.4359
+
+[PKKTGNSS01_precise]
+x = -1147013.7690
+y = 6087743.5431
+z = 1512806.2706
+lat.dd = 13
+lat.mm = 48
+lat.ss = 43.92466
+lon.dd = 100
+lon.mm = 40
+lon.ss = 12.77540
+h   = -28.4395
+
+[BPLEGNSS01_precise]
+x = -1147013.7604
+y = 6087743.5433
+z = 1512806.2833
+lat.dd = 13
+lat.mm = 48
+lat.ss = 43.92508
+lon.dd = 100
+lon.mm = 40
+lon.ss = 12.77512
+h   = -28.4377
+
+[OKRKGNSS01_precise]
+x = -1147013.7773
+y = 6087743.5944
+z = 1512806.2723
+lat.dd = 13
+lat.mm = 48
+lat.ss = 43.92431
+lon.dd = 100
+lon.mm = 40
+lon.ss = 12.77535
+h   = -28.3886
