@@ -125,6 +125,8 @@ input เป็น  GCP_Measure_edit5_speed_30_60.csv กับไฟล์ .las
 
 |point_density = 767 pnt/sqm.|
 
+โดยผลลัพธ์ทั้งสองตารางเก็บไว้ใน .pkl โดยจะมีตัวอย่างที่แสดงไว้ก่อนหน้านี้ save ในชื่อ point_density_s30.txt กับ point_density_s60.txt ให้ดูกันด้วย
+
 ## MMS_validation_form_AU20.pdf
 MMS_validation_form_AU20.pdf ทีจะอธิบายทั้งตำแหน่งที่ได้จาก RTK และ MMS ความหนาแน่นของ point cloud บริเวณนั้น 5*5 รวมไปถึงภาพทีใช้วัดจุด GCP เหล่านั้น สามารถดูได้จากไฟล์นี้ได้เลยครับ
 
