@@ -151,11 +151,11 @@ MX9_object_detect_basic.pdf จะบอกลักษณะหน้าตา�
 ## MX9_detailed_detect_130824
 MX9_detailed_detect_130824.pdf จะบอกลักษณะหน้าตาของ point cloud ที่ได้จาก feature ในรูปแบบต่างๆ ที่ได้จาก point cloud  ซึ่งใช้ข้อมูลจากเครื่อง MX9
 
-## AU_20_object_detect_basic
-MX9_object_detect_basic.pdf จะบอกลักษณะหน้าตาของ point cloud ที่ได้จาก feature หลักๆ ที่การทดลองนี้คาดหวังไว้แต่แรก ได้แก่ ต้นไม้ เสาไฟ และ โครงสร้างป้ายจราจร ซึ่งใช้ข้อมูลจากเครื่อง AU 20
+## AU20_object_detect_basic
+MX9_object_detect_basic.pdf จะบอกลักษณะหน้าตาของ point cloud ที่ได้จาก feature หลักๆ ที่การทดลองนี้คาดหวังไว้แต่แรก ได้แก่ ต้นไม้ เสาไฟ และ โครงสร้างป้ายจราจร ซึ่งใช้ข้อมูลจากเครื่อง AU20
 
-## AU_20_detailed_detect_130824
-AU_20_detailed_detect_130824.pdf จะบอกลักษณะหน้าตาของ point cloud ที่ได้จาก feature ในรูปแบบต่างๆ ที่ได้จาก point cloud  ซึ่งใช้ข้อมูลจากเครื่อง AU 20
+## AU20_detailed_detect_130824
+AU_20_detailed_detect_130824.pdf จะบอกลักษณะหน้าตาของ point cloud ที่ได้จาก feature ในรูปแบบต่างๆ ที่ได้จาก point cloud  ซึ่งใช้ข้อมูลจากเครื่อง AU20
 
 ## cors4_GNSS1.py
 โปรแกรม cors4_GNSS1.py สำหรับตรวจสอบค่าพิกัด GNSS ที่วัดได้จากการ post process ซึ่งในกรณีได้ใช้ SBKKGNSS01_precise เป็น reference เพื่อเทียบกับอันอื่น โดยลำดับที่เรียงตามความใกล้ไกลและเป็นแบบที่ใช้คำนวณด้วย orbit แบบไหนด้วย
