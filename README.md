@@ -139,13 +139,23 @@ input เป็น  GCP_Measure_edit5_speed_30_60.csv กับไฟล์ .las
 
 โดยผลลัพธ์ทั้งสองตารางเก็บไว้ใน .pkl โดยจะมีตัวอย่างที่แสดงไว้ก่อนหน้านี้ save ในชื่อ point_density_s30.txt กับ point_density_s60.txt ให้ดูกันด้วย
 
-## MMS_validation_form_AU20.pdf
+## MMS_validation_form_AU20
 MMS_validation_form_AU20.pdf ทีจะอธิบายทั้งตำแหน่งที่ได้จาก RTK และ MMS ความหนาแน่นของ point cloud บริเวณนั้น 5*5 รวมไปถึงภาพทีใช้วัดจุด GCP เหล่านั้น สามารถดูได้จากไฟล์นี้ได้เลยครับ
 
-## MMS_validation_form_MX9.pdf
-MMS_validation_form_MX9.pdff ทีจะอธิบายทั้งตำแหน่งที่ได้จาก RTK และ MMS ความหนาแน่นของ point cloud บริเวณนั้น 5*5 รวมไปถึงภาพทีใช้วัดจุด GCP เหล่านั้น สามารถดูได้จากไฟล์นี้ได้เลยครับ
+## MMS_validation_form_MX9
+MMS_validation_form_MX9.pdf ทีจะอธิบายทั้งตำแหน่งที่ได้จาก RTK และ MMS ความหนาแน่นของ point cloud บริเวณนั้น 5*5 รวมไปถึงภาพทีใช้วัดจุด GCP เหล่านั้น สามารถดูได้จากไฟล์นี้ได้เลยครับ
 
-## MMS_validation_form_MX9.pdf
+## MX9_object_detect_basic
+MX9_object_detect_basic.pdf จะบอกลักษณะหน้าตาของ point cloud ที่ได้จาก feature หลักๆ ที่การทดลองนี้คาดหวังไว้แต่แรก ได้แก่ ต้นไม้ เสาไฟ และ โครงสร้างป้ายจราจร ซึ่งใช้ข้อมูลจากเครื่อง MX9
+
+## MX9_detailed_detect_130824
+MX9_detailed_detect_130824.pdf จะบอกลักษณะหน้าตาของ point cloud ที่ได้จาก feature ในรูปแบบต่างๆ ที่ได้จาก point cloud  ซึ่งใช้ข้อมูลจากเครื่อง MX9
+
+## AU_20_object_detect_basic
+MX9_object_detect_basic.pdf จะบอกลักษณะหน้าตาของ point cloud ที่ได้จาก feature หลักๆ ที่การทดลองนี้คาดหวังไว้แต่แรก ได้แก่ ต้นไม้ เสาไฟ และ โครงสร้างป้ายจราจร ซึ่งใช้ข้อมูลจากเครื่อง AU 20
+
+## AU_20_detailed_detect_130824
+AU_20_detailed_detect_130824.pdf จะบอกลักษณะหน้าตาของ point cloud ที่ได้จาก feature ในรูปแบบต่างๆ ที่ได้จาก point cloud  ซึ่งใช้ข้อมูลจากเครื่อง AU 20
 
 ## cors4_GNSS1.py
 โปรแกรม cors4_GNSS1.py สำหรับตรวจสอบค่าพิกัด GNSS ที่วัดได้จากการ post process ซึ่งในกรณีได้ใช้ SBKKGNSS01_precise เป็น reference เพื่อเทียบกับอันอื่น โดยลำดับที่เรียงตามความใกล้ไกลและเป็นแบบที่ใช้คำนวณด้วย orbit แบบไหนด้วย
