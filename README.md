@@ -180,54 +180,7 @@ input เป็น  cors4_GNSS1_210624.toml
 โปรแกรม edit_traj.py สำหรับการแยกจุดวิถีที่เป็นช่วง initial เนื่องจากมีสภาพไม่พร้อมใช้งานจึงต้องตัดออกเพื่อจะได้วิเคราะห์วิถีได้อย่างถูกต้อง โดยเราต้องไปกำหนดช่วง fid ที่สนใจในการทำงานแล้วเก็บเป็น .gpkg
 
 ## test_diff_dist.py
-โปรแกรม test_diff_dist มีไว้สำหรับการตรวจสอบระยะห่างระหว่างสองเส้นที่สนใจโดย euclidean_distance จะบอกระยะห่างที่สั้นสุดหรือก็คือมีการตัดกันหรือไม่ กับ Hausdorff_distance จะบอกระยะห่างที่สุดโดยแสดงถึงความเหมือนกันของเส้นว่าใกล้เคียงแค่ไหน โดยมีตัวอย่างดังนี
+โปรแกรม test_diff_dist มีไว้สำหรับการตรวจสอบระยะห่างระหว่างสองเส้นที่สนใจโดย euclidean_distance จะบอกระยะห่างที่สั้นสุดหรือก็คือมีการตัดกันหรือไม่ กับ Hausdorff_distance จะบอกระยะห่างที่สุดโดยแสดงถึงความเหมือนกันของเส้นว่าใกล้เคียงแค่ไหน โดยมีตัวอย่างเก็บไว้ในไฟล์ที่ชื่อว่า test_diff_dist_result.txt
 
-=======================
-reference line = 8goneAU20_v30_GNSS01.gpkg
-compare line = 8goneAU20_v30_SBKK.gpkg
-euclidean_distance = 0.0 m
-hausdorff_distance = 0.03112451928816148 m
-=======================
-=======================
-reference line = 8goneAU20_v30_GNSS01.gpkg
-compare line = 8goneAU20_v30_PKKT.gpkg
-euclidean_distance = 0.0 m
-hausdorff_distance = 0.07799735519647172 m
-=======================
-=======================
-reference line = 8goneAU20_v30_GNSS01.gpkg
-compare line = 8goneAU20_v30_BPLE.gpkg
-euclidean_distance = 0.0 m
-hausdorff_distance = 0.29043507117640116 m
-=======================
-=======================
-reference line = 8goneAU20_v30_GNSS01.gpkg
-compare line = 8goneAU20_v30_OKRK.gpkg
-euclidean_distance = 0.0 m
-hausdorff_distance = 0.24561440217920094 m
-=======================
-=======================
-reference line = 8goneMX9_v30_GNSS02.gpkg
-compare line = 8goneMX9_v30_SBKK.gpkg
-euclidean_distance = 0.0 m
-hausdorff_distance = 0.14658800955895868 m
-=======================
-=======================
-reference line = 8goneMX9_v30_GNSS02.gpkg
-compare line = 8goneMX9_v30_PKKT.gpkg
-euclidean_distance = 0.0 m
-hausdorff_distance = 0.37390401187269057 m
-=======================
-=======================
-reference line = 8goneMX9_v30_GNSS02.gpkg
-compare line = 8goneMX9_v30_BPLE.gpkg
-euclidean_distance = 0.0 m
-hausdorff_distance = 0.08509758892491236 m
-=======================
-=======================
-reference line = 8goneMX9_v30_GNSS02.gpkg
-compare line = 8goneMX9_v30_OKRK.gpkg
-euclidean_distance = 0.0 m
-hausdorff_distance = 0.09632575919867598 m
-=======================
+
 
