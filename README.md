@@ -181,6 +181,7 @@ input เป็น  cors4_GNSS1_210624.toml
 
 ## test_diff_dist.py
 โปรแกรม test_diff_dist มีไว้สำหรับการตรวจสอบระยะห่างระหว่างสองเส้นที่สนใจโดย euclidean_distance จะบอกระยะห่างที่สั้นสุดหรือก็คือมีการตัดกันหรือไม่ กับ Hausdorff_distance จะบอกระยะห่างที่สุดโดยแสดงถึงความเหมือนกันของเส้นว่าใกล้เคียงแค่ไหน โดยมีตัวอย่างดังนี
+
 =======================
 reference line = 8goneAU20_v30_GNSS01.gpkg
 compare line = 8goneAU20_v30_SBKK.gpkg
@@ -228,4 +229,5 @@ reference line = 8goneMX9_v30_GNSS02.gpkg
 compare line = 8goneMX9_v30_OKRK.gpkg
 euclidean_distance = 0.0 m
 hausdorff_distance = 0.09632575919867598 m
-=======================้
+=======================
+
